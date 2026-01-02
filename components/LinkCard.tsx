@@ -40,29 +40,46 @@ export default function LinkCard({name, type, category, description, status, src
 
                                 <CardTitle>{name}</CardTitle>
 
-                                <p className="bg-blue-400 p-2 hover:scale-105 transition-all duration-300 rounded-md">{description}</p>
-
-                                <p>{`Status: ${status}`}</p>
-
-                                <p>{`Category: ${category}`}</p>
-
-                                <p>{`Type: ${type}`}</p>
-
-                                <Link href={url}>
-                                    <p className="text-blue-500  hover:text-blue-700 hover:underline transition-all duration-300">{`URL: ${url}`}</p>
-                                </Link>
 
 
+                                <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-2">
+                                    
+                                    <div className="bg-blue-400 p-2 hover:scale-105  hover:shadow-lg hover:shadow-black/50  transition-all duration-300 rounded-md">
 
-                                <Link href={url}>
-                                    <div className="flex items-center justify-center mt-4">
-
-                                        <Button className=" cursor-pointer text-white hover:bg-orange-500 hover:text-black hover:scale-115 hover:shadow-lg hover:shadow-black/50 transition-all duration-300">Visit Page</Button>
-                                        
+                                        <p className="">{description}</p>
                                     </div>
 
-                                
-                                </Link>
+
+
+                                    <div className="flex flex-col  gap-2">
+
+
+                                        <p>{`Status: ${status}`}</p>
+
+                                        <p>{`Category: ${category}`}</p>
+
+                                        <p>{`Type: ${type}`}</p>
+
+                                        <Link href={url}>
+                                            <p className="text-blue-500  hover:text-blue-700 hover:underline transition-all duration-300">{`URL: ${url}`}</p>
+                                        </Link>
+
+
+
+                                        <Link href={url}>
+                                            <div className="flex items-center justify-center mt-4">
+
+                                                <Button className=" cursor-pointer text-white hover:bg-orange-500 hover:text-black hover:scale-115 hover:shadow-lg hover:shadow-black/50 transition-all duration-300">Visit Page</Button>
+                                                
+                                            </div>
+
+                                        
+                                        </Link>
+                                    </div>
+
+
+                                </div>
+
 
                                 
 
