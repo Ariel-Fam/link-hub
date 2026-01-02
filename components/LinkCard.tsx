@@ -46,7 +46,13 @@ export default function LinkCard({name, type, category, description, status, src
                                     
                                     <div className="bg-blue-400 p-2 hover:scale-105  hover:shadow-lg hover:shadow-black/50  transition-all duration-300 rounded-md">
 
-                                        <p className="">{description}</p>
+                                        <Link href={url}>
+                                        
+                                        
+                                            <p className="">{description}</p>
+                                        
+                                        </Link>
+
                                     </div>
 
 
