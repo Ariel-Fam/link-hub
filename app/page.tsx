@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { pageData } from "@/data/pageData";
-import { Card, CardTitle} from "@/components/ui/card";
+import { Card, CardTitle, CardContent} from "@/components/ui/card";
 import LinkCard from "@/components/LinkCard";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,6 +18,23 @@ export default function Home() {
       <Card className=" flex flex-col items-center justify-center p-7 bg-gray-400 text-center border-purple-900">
         <CardTitle>Links to my apps and web pages.</CardTitle>
       </Card>
+
+
+      <Link href="https://github.com/Ariel-Fam">
+      
+        <Card className="flex flex-col items-center justify-center bg-gray-400 text-center border-purple-900 p-4">
+
+          <CardTitle>Click Here to View My Github Profile</CardTitle>
+
+          <CardContent>
+
+            <Image className="rounded-md hover:scale-145 hover:shadow-lg hover:shadow-black/50 transition-all duration-300 " src="/github.jpg" alt="instagram" width={100} height={100} />
+
+          </CardContent>
+        
+        </Card>
+      </Link>
+
 
       {pageData.map((page)=>(
         <LinkCard key={page.id}
