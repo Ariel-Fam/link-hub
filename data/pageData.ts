@@ -28,7 +28,7 @@ export const pageData = [
     description: "A task management hub that helps users organize, prioritize, and track daily goals and responsibilities.",
     status: "Active",
     src: "/todoList.png",
-    url: "https://to-do-list-hub.vercel.app/"
+    url: "https://www.todolisthub.com"
   },
   {
     id: "zodiac-view",
@@ -58,6 +58,6 @@ export const pageData = [
     description: "An educational article and visual experience explaining how modern AI systems integrate text, images, audio, and data into unified models.",
     status: "Active",
     src: "/multiModal.png",
-    url: "https://multi-modal-article.vercel.app/"
+    url: "https://www.multimodalarticle.com"
   }
 ]
