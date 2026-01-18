@@ -1,5 +1,5 @@
 export const pageData = [
-  
+
   {
     id: "launchnarrative",
     name: "Launch Narrative Website",
@@ -20,6 +20,17 @@ export const pageData = [
     src: "/astroWeb.png",
     url: "https://astro-mech-web.vercel.app/"
   },
+  {
+    id: "periodictable",
+    name: "Ineractive Periodic Table",
+    type: "Web App",
+    category: "Education",
+    description: "This web app is an interactive periodic table that allows users to explore the properties of elements and their relationships to each other. It also has information about astro physics, galaxies, the origins of the universe, pulsars etc.",
+    status: "Active",
+    src: "/astroChem.png",
+    url: "https://www.astrochemhub.com/"
+  }
+  ,
   {
     id: "budget-track",
     name: "Budget Track",
