@@ -21,6 +21,16 @@ export const pageData = [
     url: "https://astro-mech-web.vercel.app/"
   },
   {
+    id: "intergalactron",
+    name: "Intergalactron",
+    type: "Website",
+    category: "Descriptional Art",
+    description: "This is an Art project that i created that spans from digiral art, web design and web development.",
+    status: "Active",
+    src: "/interGalactron.png",
+    url: "https://www.intergalactron.com/"
+  },
+  {
     id: "periodictable",
     name: "Ineractive Periodic Table",
     type: "Web App",
