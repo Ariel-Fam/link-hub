@@ -60,12 +60,12 @@ export default function LinkCard({name, type, category, description, status, src
                                     <div className="flex flex-col  gap-2">
 
 
-                                        <p>{`Status: ${status}`}</p>
+                                        <p className="text-orange-500">{`Status: ${status}`}</p>
 
                                         <p>{`Category: ${category}`}</p>
 
                                         <p>{`Type: ${type}`}</p>
-
+ 
                                         <Link href={url}>
                                             <p className="text-blue-500  hover:text-blue-700 hover:underline transition-all duration-300">{`URL: ${url}`}</p>
                                         </Link>
