@@ -90,5 +90,15 @@ export const pageData = [
     status: "Active",
     src: "/multiModal.png",
     url: "https://www.multimodalarticle.com"
+  },
+  {
+    id: "cot-ai",
+    name: "Chain of Thought AI Article",
+    type: "Web Article",
+    category: "Artificial Intelligence",
+    description: "An educational article about the Chain of Thought concept in AI. It explains how it works and how it can be used to solve problems more effectively than traditional AI models.",
+    status: "Active",
+    src: "/CoT.png",
+    url: "https://chain-of-thought-six.vercel.app/"
   }
 ]
