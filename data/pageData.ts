@@ -72,6 +72,16 @@ export const pageData = [
     url: "https://zodiac-view.vercel.app/"
   },
   {
+    id: "cosmae-view",
+    name: "CosmaeView",
+    type: "Web App",
+    category: "Astronomy",
+    description: "A web page the promotes my Ai Generated Solar System called Cosme, it has a 3D model representation of the planet, as well as information about each planets material composition.",
+    status: "Active",
+    src: "/cosmaeView.png",
+    url: "https://astro-mech-next.vercel.app/"
+  },
+  {
     id: "solar-system-view",
     name: "Solar System View",
     type: "Web App",
