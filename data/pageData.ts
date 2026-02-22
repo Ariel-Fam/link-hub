@@ -6,7 +6,7 @@ export const pageData = [
     type: "Website",
     category: "Music Promotion",
     description: "This website promotes my futuristic Ai character and music album and serves as a narrative bridge between art, technology, music, and immersive web experiences.",
-    status: "Under Development - Updating Soon",
+    status: "Active",
     src: "/launchNarrative.png",
     url: "https://www.launchnarrative.ca/"
   },
