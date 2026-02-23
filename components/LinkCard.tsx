@@ -62,7 +62,7 @@ export default function LinkCard({name, type, category, description, status, src
 
                                         <p className="text-orange-500">{`Status: ${status}`}</p>
 
-                                        <p>{`Category: ${category}`}</p>
+                                        <p className="text-green-500">{`Category: ${category}`}</p>
 
                                         <p>{`Type: ${type}`}</p>
  
