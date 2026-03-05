@@ -62,14 +62,14 @@ export const pageData = [
     url: "https://www.todolisthub.com"
   },
   {
-    id: "zodiac-view",
-    name: "Zodiac View",
+    id: "data-viz",
+    name: "DataViz Studio",
     type: "Web App",
-    category: "Astrology",
-    description: "An exploratory application that presents zodiac signs, traits, and astrological insights through a visual and interactive interface.",
+    category: "Data Visualization",
+    description: "A full featured data visualization studio that allows users to create, edit, visualize and store their data sets. It allows for CSV, JSON and Manual data input. The app includes a Whiteboard feature for data exploration and visualization , Mind Map section and a Data Science section for general information.",
     status: "Active",
-    src: "/zodiacView.png",
-    url: "https://zodiac-view.vercel.app/"
+    src: "/dataViz.png",
+    url: "https://www.datastudioviz.com/"
   },
   {
     id: "cosmae-view",
