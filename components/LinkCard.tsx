@@ -1,7 +1,10 @@
+"use client";
+
 import { Card, CardTitle, CardContent} from "./ui/card";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import * as motion from "motion/react-client";
 
 type LinkData = {
     name: string;
@@ -32,6 +35,12 @@ export default function LinkCard({name, type, category, description, status, src
 
 
                    
+                        <motion.div
+                            initial={{ opacity: 0, y: 100 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, amount: 0.2 }}
+                            transition={{ duration: 2, ease: "easeOut" }}
+                        >
                         <Card className="w-[70vw] bg-white text-black hover:scale-105 hover:shadow-lg hover:shadow-black/50 transition-all duration-300">
 
                           
@@ -91,6 +100,7 @@ export default function LinkCard({name, type, category, description, status, src
 
                             </CardContent>
                         </Card>
+                        </motion.div>
 
 
                     </div>
