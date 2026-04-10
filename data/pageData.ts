@@ -110,5 +110,15 @@ export const pageData = [
     status: "Active",
     src: "/CoT.png",
     url: "https://chain-of-thought-six.vercel.app/"
+  },
+  {
+    id: "ai-globe",
+    name: "Ai Globe",
+    type: "Web Article",
+    category: "Artificial Intelligence",
+    description: "A website that visualizes the current global adoption rates of Ai across industries and populations.",
+    status: "Active",
+    src: "/aiGlobe.png",
+    url: "https://www.aiglobedata.com"
   }
 ]
