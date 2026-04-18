@@ -21,6 +21,16 @@ export const pageData = [
     url: "https://astro-mech-web.vercel.app/"
   },
   {
+    id: "ark11-web",
+    name: "Ark11 Odyssey",
+    type: "Web Video Game",
+    category: "Video Game",
+    description: "This is a web based video game that i created that is a single player game that is a basically like the 3D version of Space Invaders, with a ship refueling mechanic. (Optimized for computers only)",
+    status: "Active",
+    src: "/ark11space.png",
+    url: "https:/www.ark11space.com"
+  },
+  {
     id: "intergalactron",
     name: "Intergalactron",
     type: "Website",
