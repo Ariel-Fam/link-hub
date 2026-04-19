@@ -102,6 +102,16 @@ export const pageData = [
     url: "http://solar-system-view.vercel.app/"
   },
   {
+    id: "neuro-hub",
+    name: "Neuro Hub",
+    type: "Web Article",
+    category: "Education",
+    description: "An educational experience that allows users to explore  the brain and its intersection with technology.",
+    status: "Active",
+    src: "/neurohub.png",
+    url: "https://www.neurohubarticle.com/"
+  },
+  {
     id: "multimodal-ai",
     name: "Multimodal AI Article",
     type: "Web Article",
