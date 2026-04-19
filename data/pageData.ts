@@ -28,7 +28,7 @@ export const pageData = [
     description: "This is a web based video game that i created that is a single player game that is a basically like the 3D version of Space Invaders, with a ship refueling mechanic. (Optimized for computers only)",
     status: "Active",
     src: "/ark11space.png",
-    url: "https:/www.ark11space.com"
+    url: "https://www.ark11space.com"
   },
   {
     id: "intergalactron",
