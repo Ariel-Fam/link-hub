@@ -82,6 +82,16 @@ export const pageData = [
     url: "https://www.datastudioviz.com/"
   },
   {
+    id: "artlab-studio",
+    name: "ArtLab Studio",
+    type: "Web App",
+    category: "Digital Art",
+    description: "This is a Next Js web app that allows users to express themselves creatively through digital art, it has a 3D layer system built in",
+    status: "Active",
+    src: "/artLab.png",
+    url: "https://artlab-studio.vercel.app/"
+  },
+  {
     id: "cosmae-view",
     name: "CosmaeView",
     type: "Web App",
