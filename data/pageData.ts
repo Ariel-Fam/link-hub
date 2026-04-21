@@ -112,6 +112,16 @@ export const pageData = [
     url: "https://www.neurohubarticle.com/"
   },
   {
+    id: "genetic-hun",
+    name: "Genetic Hub",
+    type: "Web Article",
+    category: "Education",
+    description: "A web article that explores genetics at a high level and offers key insights to the reader",
+    status: "Active",
+    src: "/geneticHub.png",
+    url: "https://genetic-hub.vercel.app/"
+  },
+  {
     id: "multimodal-ai",
     name: "Multimodal AI Article",
     type: "Web Article",
