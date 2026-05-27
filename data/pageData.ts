@@ -132,6 +132,16 @@ export const pageData = [
     url: "https://genetic-hub.vercel.app/"
   },
   {
+    id: "web-basics",
+    name: "Web Basics",
+    type: "Web Article",
+    category: "Education",
+    description: "A web article that explores the foundations of web development, and offers key insights to the reader",
+    status: "Active",
+    src: "/webBasics.png",
+    url: "https://www.webbasics.app/"
+  },
+  {
     id: "multimodal-ai",
     name: "Multimodal AI Article",
     type: "Web Article",
