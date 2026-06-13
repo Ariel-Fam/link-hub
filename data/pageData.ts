@@ -172,6 +172,16 @@ export const pageData = [
     url: "https://chain-of-thought-six.vercel.app/"
   },
   {
+    id: "agentic-overview",
+    name: "Agentic Overview",
+    type: "Web Article",
+    category: "Artificial Intelligence",
+    description: "An educational article about Ai Agents and how they work at a fundamental level.",
+    status: "Active",
+    src: "/agenticOverview.png",
+    url: "https://agentic-overview.vercel.app/"
+  },
+  {
     id: "ai-globe",
     name: "Ai Globe",
     type: "Web Article",
