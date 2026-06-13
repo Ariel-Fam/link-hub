@@ -122,6 +122,16 @@ export const pageData = [
     url: "https://www.neurohubarticle.com/"
   },
   {
+    id: "organization-levels",
+    name: "Organization Levels",
+    type: "Web Article",
+    category: "Education",
+    description: "Website that shows the different levels of organization, how we go from fundamental particles to humans.",
+    status: "Active",
+    src: "/orgLevels.png",
+    url: "https://organization-levels.vercel.app/"
+  },
+  {
     id: "genetic-hun",
     name: "Genetic Hub",
     type: "Web Article",
