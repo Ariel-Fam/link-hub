@@ -39,7 +39,7 @@ export default function LinkCard({name, type, category, description, status, src
                             initial={{ opacity: 0, y: 100 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 2, ease: "easeOut" }}
+                            transition={{ duration: 0.7, ease: "easeOut" }}
                         >
                         <Card className="w-[70vw] bg-white text-black hover:scale-105 hover:shadow-lg hover:shadow-black/50 transition-all duration-300">
 
