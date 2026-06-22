@@ -31,14 +31,24 @@ export const pageData = [
     url: "https://www.ark11space.com"
   },
   {
+    id: "earth-game",
+    name: "Earth Game",
+    type: "Website",
+    category: "Web Experience",
+    description: "This is a website that was inspired by a video i saw on instagram about the human experience, turned the video into a web experience.",
+    status: "Active",
+    src: "/earthGame.png",
+    url: "https://earth-game-mauve.vercel.app/"
+  },
+  {
     id: "intergalactron",
     name: "Intergalactron",
     type: "Website",
     category: "Descriptional Art",
-    description: "This is an Art project that i created that spans from digiral art, web design and web development.",
+    description: "This is an Art project that i created that spans from digiral art, web design and web development. ",
     status: "Active",
     src: "/interGalactron.png",
-    url: "https://www.intergalactron.com/"
+    url: "https://intergalactron.com/"
   },
   {
     id: "periodictable",
