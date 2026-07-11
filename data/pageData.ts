@@ -102,6 +102,16 @@ export const pageData = [
     url: "https://artlab-studio.vercel.app/"
   },
   {
+    id: "skate-notes",
+    name: "Skate Notes",
+    type: "Web App",
+    category: "Skateboarding",
+    description: "A web app for tracking skateboarding trick lines, sessions and progress.",
+    status: "Active",
+    src: "/skateNotes.png",
+    url: "https://www.skatenotes.com"
+  },
+  {
     id: "cosmae-view",
     name: "CosmaeView",
     type: "Web App",

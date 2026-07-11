@@ -11,8 +11,6 @@ export default function Home() {
         bg-[url('/background.png')] bg-cover bg-center bg-no-repeat
         flex flex-col items-center 
         px-6 gap-14 text-black">
-      
-
       <Image className="mt-14" src="/softwareLogo.png" alt="logo" width={200} height={100} />
 
       <Card className=" flex flex-col items-center justify-center p-7 bg-gray-400 text-center border-purple-900">
@@ -21,7 +19,6 @@ export default function Home() {
 
 
       <Link href="https://github.com/Ariel-Fam">
-      
         <Card className="flex flex-col items-center justify-center bg-gray-400 text-center border-purple-900 p-4">
 
           <CardTitle>Click Here to View My Github Profile</CardTitle>
@@ -31,7 +28,6 @@ export default function Home() {
             <Image className="rounded-md hover:scale-145 hover:shadow-lg hover:shadow-black/50 transition-all duration-300 " src="/github.jpg" alt="instagram" width={100} height={100} />
 
           </CardContent>
-        
         </Card>
       </Link>
 
