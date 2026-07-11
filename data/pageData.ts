@@ -41,6 +41,16 @@ export const pageData = [
     url: "https://earth-game-mauve.vercel.app/"
   },
   {
+    id: "3d-dojo",
+    name: "3D Dojo",
+    type: "Website",
+    category: "3D Web Experience",
+    description: "This is a 3D web experience that allows users to explore and interact with various 3D models and environments.",
+    status: "Active",
+    src: "/3dDojo.png",
+    url: "https://3d-dojo.vercel.app/"
+  },
+  {
     id: "intergalactron",
     name: "Intergalactron",
     type: "Website",
