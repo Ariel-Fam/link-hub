@@ -41,6 +41,16 @@ export const pageData = [
     url: "https://earth-game-mauve.vercel.app/"
   },
   {
+    id: "fragmentaron",
+    name: "Fragmentaron",
+    type: "Website",
+    category: "Web Experience",
+    description: "This is a web experience about Fragmentaron, the first consciousness.",
+    status: "Active",
+    src: "/fragmentaron.png",
+    url: "https://fragmentaron.vercel.app/"
+  },
+  {
     id: "3d-dojo",
     name: "3D Dojo",
     type: "Website",
