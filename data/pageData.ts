@@ -218,7 +218,7 @@ export const pageData = [
     category: "Artificial Intelligence",
     description: "An educational article and visual experience explaining how modern AI systems integrate text into create multimedia content, including images, audio, and video.",
     status: "Active",
-    src: "/multimediaAi.png",
+    src: "/multimedia.png",
     url: "https://multimedia-ai-xi.vercel.app/"
   },
   {
