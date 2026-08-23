@@ -213,12 +213,12 @@ export const pageData = [
   },
   {
     id: "multimedia-ai",
-    name: "Multi MediaAI Article",
+    name: "Multi Media Ai Article",
     type: "Web Article",
     category: "Artificial Intelligence",
     description: "An educational article and visual experience explaining how modern AI systems integrate text into create multimedia content, including images, audio, and video.",
     status: "Active",
-    src: "/multimedia-ai.png",
+    src: "/media.png",
     url: "https://multimedia-ai-xi.vercel.app/"
   },
   {
