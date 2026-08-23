@@ -212,6 +212,16 @@ export const pageData = [
     url: "https://chain-of-thought-six.vercel.app/"
   },
   {
+    id: "multimedia-ai",
+    name: "Multi MediaAI Article",
+    type: "Web Article",
+    category: "Artificial Intelligence",
+    description: "An educational article and visual experience explaining how modern AI systems integrate text into create multimedia content, including images, audio, and video.",
+    status: "Active",
+    src: "/multimediaAi.png",
+    url: "https://multimedia-ai-xi.vercel.app/"
+  },
+  {
     id: "agentic-overview",
     name: "Agentic Overview",
     type: "Web Article",
