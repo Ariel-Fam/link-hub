@@ -162,6 +162,16 @@ export const pageData = [
     url: "https://www.neurohubarticle.com/"
   },
   {
+    id: "mind-atlas",
+    name: "Mind Atlas",
+    type: "Web Article",
+    category: "Education",
+    description: "An educational platform that allows the user to explore and learn different human psychology concepts, and psychological effects ",
+    status: "Active",
+    src: "/mindAtlas.png",
+    url: "https://mind-atlas-ashy.vercel.app/"
+  },
+  {
     id: "organization-levels",
     name: "Organization Levels",
     type: "Web Article",
