@@ -15,6 +15,16 @@ export const pageData = [
     name: "Astro Mech Web",
     type: "Website",
     category: "Descriptional Art",
+    description: "This website is a place to explore my Ai universe, it's a really immersive cinamtic experience overall.",
+    status: "Active",
+    src: "/cosmoverse.png",
+    url: "https://cosmoverse-ruddy.vercel.app/"
+  },
+  {
+    id: "cosmoverse",
+    name: "Cosmoverse",
+    type: "Website",
+    category: "Descriptional Art",
     description: "This website is a place to explore my Ai Character in more detail, in terms of their origin, abilities etc.",
     status: "Active",
     src: "/astroWeb.png",
