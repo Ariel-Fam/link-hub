@@ -11,8 +11,8 @@ export const pageData = [
     url: "https://www.launchnarrative.ca/"
   },
   {
-    id: "astromechweb",
-    name: "Astro Mech Web",
+    id: "cosmoverse",
+    name: "Cosmoverse",
     type: "Website",
     category: "Descriptional Art",
     description: "This website is a place to explore my Ai universe, it's a really immersive cinamtic experience overall.",
@@ -21,8 +21,8 @@ export const pageData = [
     url: "https://cosmoverse-ruddy.vercel.app/"
   },
   {
-    id: "cosmoverse",
-    name: "Cosmoverse",
+    id: "astromech-web",
+    name: "Astro Mech Web",
     type: "Website",
     category: "Descriptional Art",
     description: "This website is a place to explore my Ai Character in more detail, in terms of their origin, abilities etc.",
