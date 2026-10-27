@@ -61,14 +61,14 @@ export const pageData = [
     url: "https://fragmentaron.vercel.app/"
   },
   {
-    id: "3d-dojo",
-    name: "3D Dojo",
-    type: "Website",
-    category: "3D Web Experience",
-    description: "This is a 3D web experience that allows users to explore and interact with various 3D models and environments.",
+    id: "astro-runner",
+    name: "Astro Runner",
+    type: "Web Video Game",
+    category: "Video Game",
+    description: "This is a web based video game that i created that is a single player game that is a basically like the 3D version of Dodge Ball, with a ship lasers instead. (Optimized for computers only)",
     status: "Active",
-    src: "/3dDojo.png",
-    url: "https://3d-dojo.vercel.app/"
+    src: "/astroRunner.png",
+    url: "https://astro-runner-sigma.vercel.app/"
   },
   {
     id: "intergalactron",
