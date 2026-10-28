@@ -45,7 +45,7 @@ export const pageData = [
     name: "Astro Runner",
     type: "Web Video Game",
     category: "Video Game",
-    description: "This is a web based video game that i created that is a single player game that is a basically like the 3D version of Dodge Ball, with a ship lasers instead. (Optimized for computers only)",
+    description: "This is a web based video game that i created, it is a basically like the 3D version of Dodge Ball, with a ship lasers instead. (Optimized for computers only)",
     status: "Active",
     src: "/astroRunner.png",
     url: "https://astro-runner-sigma.vercel.app/"
