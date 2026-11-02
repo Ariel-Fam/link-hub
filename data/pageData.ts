@@ -50,6 +50,16 @@ export const pageData = [
     src: "/astroRunner.png",
     url: "https://astro-runner-sigma.vercel.app/"
   },
+     {
+    id: "parkour-mall",
+    name: "Parkour Mall",
+    type: "Web Video Game",
+    category: "Video Game",
+    description: "This is a web based video game that i created, it is a basically like an obstacle course and 3D environmental traversal game, with a parkour mechanic. Goku Flying mode so you can explore the multible obstabcle courses and extended maps. (Optimized for computers only)",
+    status: "Active",
+    src: "/parkourMall.png",
+    url: "https://parkour-mall.vercel.app/"
+  },
   {
     id: "earth-game",
     name: "Earth Game",
@@ -150,16 +160,6 @@ export const pageData = [
     status: "Active",
     src: "/cosmaeView.png",
     url: "https://astro-mech-next.vercel.app/"
-  },
-  {
-    id: "solar-system-view",
-    name: "Solar System View",
-    type: "Web App",
-    category: "Astronomy",
-    description: "An educational experience that allows users to explore planets, orbits, and relationships within the solar system.",
-    status: "Active",
-    src: "/solarSystem.png",
-    url: "http://solar-system-view.vercel.app/"
   },
   {
     id: "neuro-hub",
