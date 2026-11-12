@@ -55,7 +55,7 @@ export const pageData = [
     name: "Parkour Mall",
     type: "Web Video Game",
     category: "Video Game",
-    description: "This is a web based video game that i created, it is a basically like an obstacle course and 3D environmental traversal game, with a parkour mechanic. Goku Flying mode so you can explore the multible obstabcle courses and extended maps. (Optimized for computers only)",
+    description: "This is a web based video game that i created, it is a basically like an obstacle course and 3D environmental traversal game, with a parkour mechanic. Goku Flying mode so you can explore the multible obstabcle courses and extended maps. The game has keyboard and game controller support (Optimized for computers only and Tablet devices)",
     status: "Active",
     src: "/parkourMall.png",
     url: "https://parkour-mall.vercel.app/"
